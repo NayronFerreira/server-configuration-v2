@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greeting-service
+  config:
+    import: "optional:configserver:"
+  cloud:
+    config:
+      enabled: true
+greeting-service:
+  greeting: "Opa"
+  default-value: "Amigão"
+
+
+
